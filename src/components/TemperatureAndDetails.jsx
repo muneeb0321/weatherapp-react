@@ -21,17 +21,17 @@ function TemperatureAndDetails() {
             <p className="text-5xl">32°</p>
             <div className="flex flex-col space-y-2  ">
                 <div className="flex font-light text-sm items-center justify-center">
-                    <UilTemperature SIZE={18} className="mr-1"/>
+                    <UilTemperature size={18} className="mr-1"/>
                     Real Feel
                     <span className="font-medium ml-1" >32°C</span>
                 </div>
                 <div className="flex font-light text-sm items-center justify-center">
-                    <UilTear SIZE={18} className="mr-1"/>
+                    <UilTear size={18} className="mr-1"/>
                     Humidty
                     <span className="font-medium ml-1" >65%</span>
                 </div>
                 <div className="flex font-light text-sm items-center justify-center">
-                    <UilWind SIZE={18} className="mr-1"/>
+                    <UilWind size={18} className="mr-1"/>
                     Wind
                     <span className="font-medium ml-1" >11 km/h</span>
                 </div>
